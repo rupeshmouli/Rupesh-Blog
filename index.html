@@ -5,113 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOG</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Welcome to Rupesh Mouli Component's Library</h1>
-    <p>In this Blog, I will share the learings and paths of my programming steps.</p>
-
-<hr>
-<h1>Heading starts with H1 to H6, which is higher to lower</h1>
-<p>P is for Paragraphs</p>
-<small>small is used for hte smaller texts</small>
-
-<hr>
-
-<h2>@Container</h2>
-<p>There are two types of containers, Fluid containers and centered Containers</p>
-<h3>Fluid Container</h3>
-<div>This Fluid container will go upto the End</div>
-
-<h3>Center Container</h3>
-<div>This centered container will go till the specified width</div>
-<hr>
-<h2>@Links</h2>
-<P>Links are two types, Primatry Link and Secondary Link</P>
-<h3>Primary Link</h3>
-<a href="/">Primary</a>
-<h3>Secondary link</h3>
-<a href="/">Secondry</a>
-
-<hr>
-<h2>@Lists</h2>
-<div>
-    Here is my List
-    <div>Item one</div>
-    <div>Item two</div>
-    <div>Item three</div>
-</div>
-<h3>Or Lists can be done with specific tag names like below</h3>
-<h4> Reverse Ordered list</h4>
-<ol>
-    <li>One</li>
-    <li>Two</li>
-    <li>Three</li>
-    <li>Four</li>
-</ol>
-<h4>Unordered List</h4>
-<ul>
-    <li>Five</li>
-    <li>Six</li>
-    <li>Seven</li>
-    <li>Eight</li>
-</ul>
-<h4>Unordered InlineList, which means in same row</h4>
-<ul>
-    <li>nine</li>
-    <li>ten</li>   
-    <li>Eleven</li>
-    <li>Twelve</li>
-</ul>
-<hr>
-
-<h2>@Nav</h2>
-<nav>
-    <div>IAmRupesh</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+<nav class="Navigation container">
+    <div class="brand">IAmRupesh</div>
+        <ul class="list-non-bullet allign">
+            <li class="list-inline">
+                <a class="link"  href="Index.html">Index</a>
             </li>
-            <li>
-                <a href="/">Project</a>
+            <li class="list-inline">
+                <a class="link" href="Projects.html">Project</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-inline">
+                <a class="link" href="About.html">About</a>
             </li>
         </ul>
 </nav>
-<hr>
-
-<h2>Header</h2>
-<header>
-    <img src="Images/multitask.svg"/>
-    <h1>Heading of my Page</h1>
+<header class="hero">
+    <img class="Image" src="Images/multitask.svg"/>
+    <h1 class="Head">Rupesh Mouli <span class="mo">The Web Designer</span></h1>
 </header>
-
-<hr>
-
-<h2>@Sections</h2>
-<section>
-    <h3>White Section</h3>
-    <p>This will have white background.</p>
-</section>
-
-<section>
+<section class="sec OW">
     <h3>Off white Section</h3>
     <p>This will have gray background.</p>
+    <a class="link primary-link" href="https://www.youtube.com">Primary</a>
 </section>
-<hr>
-<h2>@Footer</h2>
+<section class="sec">
+    <h3>White Section</h3>
+    <p>This will have white background.</p>
+    <a class="link secondary-link" href="https://www.google.com">Secondry</a>
+</section>
 
-<footer>
-    <div>headers and paragraph cannot be used inside footer</div>
-    <ul>
-        <li>Social one </li>
-        <li>Social two </li>
-        <li>Social three </li>
+<footer class="footer">
+    <div><strong>Connect With Me</strong></div>
+    <ul class="list-non-bullet fo ">
+        <li class="list-inline"> <a class="link"  href="Index.html">Insta</a> </li>
+        <li class="list-inline"> <a class="link"  href="Index.html">Linkedin</a> </li>
+        <li class="list-inline"> <a class="link"  href="Index.html">Facebook</a> </li>
     </ul>
 </footer>
-
-
 <!-- <div style="height: 30vh;"></div> -->
 </body>
 </html>

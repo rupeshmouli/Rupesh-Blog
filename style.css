@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/** @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); **/
 body{ font-family: 'Merriweather', serif; margin: 0%;}
 
 :root{ --primary-color:blue; }
@@ -33,7 +33,7 @@ hr{ margin: 1rem 0rem;}
 }
 .secondary-link
 {
-    border-radius: .5rem;
+    border-radius: 1rem;
     border: 1px solid var(--primary-color);
 }
 .list-non-bullet{list-style: none;}
@@ -41,11 +41,11 @@ hr{ margin: 1rem 0rem;}
 
 .Navigation
 {
-    background-color: aquamarine;
+    background-color: rgb(188, 188, 188);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.Navigation .link{   color: red;}
+.Navigation .link{   color: black;}
 .Navigation .allign{    text-align: right;}
 .Navigation .brand
 {  
@@ -78,11 +78,11 @@ hr{ margin: 1rem 0rem;}
 padding: 2rem 1rem;
 text-align: center;
 border-top-right-radius: 1rem;
-background-color: aquamarine;
+background-color: rgb(188, 188, 188);
 }
 
 .footer .link{
-color: rgb(234, 0, 238);
+color: black;
 }
 
 .footer .fo{
